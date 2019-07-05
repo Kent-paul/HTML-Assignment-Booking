@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    table {
+      font-family:sans-serif;
+      border-collapse: collapse;
+      width: 80%;
+      color: #000;
+        }
+
+    td, th {
+        border: 1px solid #000;
+        text-align: center;
+        padding: 15px;
+
+        border:none;
+
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #dddddd;
+    }
+
+    tr:first-child {
+        background-color: #2699FB;
+    }
+
+    </style>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="hehe.css">
+
+    </head>
+<body>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <nav>
+              
+                <h1 class="brand"><a href="Home.html"><img id="pics2" src="Logo.png"> Mi<span>l</span>os</a></h1>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="#MyFlights">Flights</a></li>
+                    <li><a href="#Book">Book</a></li>
+                    <li><a href="#Settings">Settings</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="Website.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+</header>
+
+
+
+        <div class="slider-frame">
+
+            <div class = "slide-images">
+
+                <div class="img-container">
+                    <img src="Countries\Jap.jpg">
+                </div>
+
+                <div class="img-container">
+                    <img src="Countries\Gha.jpg">
+                </div>
+
+                <div class="img-container">
+                    <img src="Countries\Scot.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="container">
+          <div id="MyFlights">
+     
+            <h1>MY FLIGHTS</h1>
+
+            <br>
+
+            <fieldset id="fild2">
+              <br>
+
+            <table id="tflight">
+                <tr>
+                  <th>AIRLINE</th>
+                  <th>FROM</th>
+                  <th>TO</th>
+                  <th>DURATION</th>
+                  <th>PRICE</th>
+                </tr>
+                <tr>
+                  <td>EMIRATES</td>
+                  <th>MANILA</th>
+                  <th>CEBU</th>
+                  <td>1Hr 15Min</td>
+                  <td></font> $3000</td>
+                </tr>
+                <tr>
+                  <td>CATHAY PACIFIC</td>
+                  <th>MANILA</th>
+                  <th>INDONESIA</th>
+                  <td>3Hr 15Min</td>
+                  <td>$4500</td>
+                </tr>
+                <tr>
+                  <td>LUFTHANSA</td>
+                  <th>MANILA</th>
+                  <th>USA</th>
+                  <td>2Hr 37Min</td>
+                  <td>$2000</td>
+                </tr>
+                <tr>
+                  <td>HAINAN</td>
+                  <th>MANILA</th>
+                  <th>BANGKOK</th>
+                  <td>1Hr 29Min</td>
+                  <td>$3500</td>
+                </tr>
+              </table>
+            </fieldset>
+          </div>
+
+
+
+        <div id="Book">
+          <h1>BOOK A FLIGHT</h1>
+          <br>
+
+
+
+          <fieldset id="fild">
+          <br>
+
+
+          <input  type="radio" name="trip" checked="One"></input>
+          <label id="rad">One Way |   </label>
+          <input  type="radio" name="trip" value="Round"></input>
+          <label id="rad">Round Trip</label>
+
+
+
+          <br><br>          
+
+          <table id="tflight">
+                <tr>
+                  <th>FROM</th>
+                  <th>TO</th>
+                  <th>ADULT</th>
+                  <th>CHILDREN</th>
+                  <th>INFANT</th>
+                  <th>CLASS</th>
+                </tr>
+
+                <tr>
+
+                  <td>
+                    <select id = "myList">
+                      <option value = "1">Manila</option>
+                      <option value = "2">Tokyo</option>
+                      <option value = "3">USA</option>
+                      <option value = "4">Japan</option>
+                    </select>
+                  </td>
+
+                  <td>
+                    <select id = "myList">
+                      <option value = "1">Manila</option>
+                      <option value = "2">Tokyo</option>
+                      <option value = "3">USA</option>
+                      <option value = "4">Japan</option>
+                    </select>
+                  </td>
+
+                  <td>
+                     <select id = "myList3">
+                       <option value = "0">0</option>
+                       <option value = "1">1</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5</option>
+                     </select>
+                  </td>
+
+                  <td>
+                    <select id = "myList3">
+                       <option value = "0">0</option>
+                       <option value = "1">1</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5</option>
+                     </select>
+                  </td>
+
+                  <td>
+                    <select id = "myList3">
+                       <option value = "0">0</option>
+                       <option value = "1">1</option>
+                       <option value = "2">2</option>
+                       <option value = "3">3</option>
+                       <option value = "4">4</option>
+                       <option value = "5">5</option>
+                     </select>
+                  </td>
+
+                  <td>
+                     <select id = "myList5">
+                       <option value = "1">Economy</option>
+                       <option value = "2">Premium Economy</option>
+                       <option value = "3">Business Class</option>
+                     </select>                    
+                  </td>
+                </tr>
+          </table>
+
+          <br>
+
+          <label><h2>TIME</h2></label>
+
+          <br>
+
+
+          <table id="tflight">
+
+            <tr>
+              <th>DEPARTURE</th>
+              <th>ARRIVAL</th>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="date" name="flightDept"/> 
+              </td>
+
+              <td>
+                <input type="date" name="flightArr"/>
+              </td>
+            </tr>
+          </table>
+
+
+            <input id="butones" type="button" onclick="window.location.href = 'pop.html';" value="Book"/>
+
+          </fieldset>
+        </div>
+
+
+   
+        <div id="Settings">
+          <h1>SETTINGS</h1>
+        </div>
+
+
+        <div id="About">
+          <h1>ABOUT</h1>
+
+          <fieldset id="fild3">
+
+            <p><h3>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </h3></p>
+    
+
+          </fieldset>
+
+
+        </div>
+
+        </div>
+
+
+<script type="text/javascript" src="test.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>Payment Method</title>
+    <link rel="stylesheet" type="text/css" href="pop.css">
+    <link rel="stylesheet" type="text/css" href="Pay.css">
+  </head>
+  <body>
+    <header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <nav>
+                <h1 class="brand"><a href="Home.html"><img id="pics2" src="Logo.png"> Mi<span>l</span>os</a></h1>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Home.html#MyFlights">Flights</a></li>
+                    <li><a href="Home.html#Book">Book</a></li>
+                    <li><a href="Home.html#Settings">Settings</a></li>
+                    <li><a href="Home.html#About">About</a></li>
+                    <li><a href="Website.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+</header>
+<br><br><br><br><br><br><br><br><br>
+
+    <form>
+       <fieldset id="test">
+
+       	<label><h2>PAYMENT</h2></label>
+
+<div id="ferm">
+      <div>
+       	<h1>TOTAL: $4000</h1>
+      </div>
+
+
+       	<label>Select Payment:</label>
+       	<br><br>
+		<input type="radio" name="gender" checked="Male">Cash:</input>
+		<input id="cardb" type="text" readonly value="$4000"/>
+		<br><br>
+		<input type="radio" name="gender" value="Female">Card:</input>
+		<select name="memberType">
+		<option value="Afg">American Express</option>
+		<option value="Phil">Discover</option>			
+		<option value="Chi">Mastercard</option>
+		<option value="Chi">VISA</option>								
+		</select>
+		<br><br>
+		<img id="pics3" src="card.png" alt="" srcset="" width="6">
+    </div>
+		<br><br><br><br><br>
+
+		<input id="butt" type="button" onclick="window.location.href = 'Tix.html';" value="Submit"/>
+
+
+		
+
+       </fieldset>
+    </form>
+  </body>
+</html>

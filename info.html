@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Details</title>
+    <link rel="stylesheet" type="text/css" href="pop.css">
+    <link rel="stylesheet" type="text/css" href="info.css">
+  </head>
+  <body>
+    
+<header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <nav>
+                <h1 class="brand"><a href="Home.html"><img id="pics2" src="Logo.png"> Mi<span>l</span>os</a></h1>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Home.html#MyFlights">Flights</a></li>
+                    <li><a href="Home.html#Book">Book</a></li>
+                    <li><a href="Home.html#Settings">Settings</a></li>
+                    <li><a href="Home.html#About">About</a></li>
+                    <li><a href="Website.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+</header>
+
+<br><br><br><br><br><br><br><br><br>
+
+    <form action="Pay.html" method="post">
+       <fieldset id="test">
+
+       	<label><h2>Provide Details</h2></label>
+
+		<div id="ferm">
+		First Name: 
+		<input type="text" required>
+		<br><br>
+		Last Name: 
+		<input type="text" required/>
+		<br><br>
+		Passport No.: 
+		<input type="number" required/>
+		<br><br>
+		VISA No.: 
+		<input type="number" required/>
+		<br><br>
+		Country: 
+		<select name="memberType">
+		<option value="Afg">Afghanistan</option>
+		<option value="Phil">Philippines</option>			
+		<option value="Chi">China</option>						
+		</select>
+		<br><br>
+		Address:
+		<br>
+		<textarea></textarea>
+		<br><br>
+		Email:
+		<input type="email" required/>
+		<br><br>
+		Contact:
+		<input type="tel" required/>
+		<br><br>
+		<input type="checkbox" name="agreement" value="I agree">I agree the terms and condition</input>
+		<br><br>
+		</div>
+
+		<input id="butt" type="Submit" name="Submit"/>
+		</form>
+       </fieldset>
+    </form>
+  </body>
+</html>

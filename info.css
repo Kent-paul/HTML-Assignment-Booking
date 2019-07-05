@@ -1,0 +1,47 @@
+
+
+h1{
+  position: relative;
+  text-align: center;
+  align-content: center;
+  color: #fff;  
+}
+
+h2{
+    font-size: 200%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#ferm{
+  position: relative;
+  left: 15%;
+}
+
+#test{
+  position: relative;
+  width: 30%;
+  height: 450px;
+  left: 35%;
+  text-align: left;
+  border-radius: 10px;
+}
+
+textarea{
+  width: 40%;
+  height: 10%;
+}
+
+#butt{
+  position:relative;
+  left: 25%;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  background: #F1F9FF;
+  color: #000;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: #707070;
+}
+
